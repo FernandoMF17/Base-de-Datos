@@ -35,4 +35,23 @@
        WHERE customer_name LIKE 'F%' 
        AND customer_name LIKE '%ck'
        LIMIT 20;
-8. 
+8. You have a table of 1000 customer records from a small-business based in Australia.
+   Find all customers where the 2nd and 3rd letter in their name is "e".
+   Example: "Reece Smith"
+    ---SELECT * FROM customers 
+       WHERE customer_name LIKE '_e%'
+       AND customer_name LIKE '__e%'
+       LIMIT 20;
+9. 
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19
+20.
+
