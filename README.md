@@ -29,5 +29,10 @@
     ---SELECT manufacturer, drug, units_sold FROM pharmacy_sales
        WHERE manufacturer IN ('Roche','Bayer','AstraZeneca')
        AND units_sold NOT BETWEEN 55000 AND 550000;
-7.
-8.
+7. You have a table of 1000 customer records from a small-business based in Australia.
+   Find all customers whose first name starts with "F" and the last letter in their last name is "ck".
+    ---SELECT * FROM customers 
+       WHERE customer_name LIKE 'F%' 
+       AND customer_name LIKE '%ck'
+       LIMIT 20;
+8. 
