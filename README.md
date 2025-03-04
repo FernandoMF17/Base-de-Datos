@@ -1,5 +1,5 @@
 # Base-de-Datos LABORATORIO 1
-# EJERCICIO 1
+# PARTE 1 BASIC SQL
 1. Given the reviews table, write a query to retrieve all 3-star reviews using the SQL WHERE clause. Only display the user_id and stars columns.
     ---SELECT user_id, stars FROM reviews
        where stars = 3;
@@ -50,8 +50,10 @@
        AND gender != 'n/a'
        AND (customer_name LIKE 'A%' OR customer_name LIKE 'B%')
        LIMIT 20;
-10.
-11.
+# PARTE 2 INTERMEDIATE SQL
+10. **Output the number of rows in the pharmacy_sales table. **
+    ---SELECT COUNT (*) FROM pharmacy_sales;
+11. 
 12.
 13.
 14.
