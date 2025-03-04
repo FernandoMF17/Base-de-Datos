@@ -19,9 +19,15 @@
    Which sold between 100,000 units and 105,000 units
    AND were manufactured by either Biogen, AbbVie, or Eli Lilly
    Output the manufacturer name, drug name, and the # of units sold.
-    ---SELECT manufacturer, drug, units_sold FROM pharmacy_sales
+    ---SELECT manufacturer, drug, units_sold FROM pharmacy_sales    
        WHERE units_sold BETWEEN 100000 AND 105000 
        AND (manufacturer = 'Biogen' OR manufacturer = 'AbbVie' OR manufacturer = 'Eli Lilly'); 
-6.
+6. Imagine you are a Data Analyst working at CVS Pharmacy, and you had access to pharmacy sales data. Use the IN SQL command to find data on medicines:
+   which were manufactured by either Roche, Bayer, or AstraZeneca
+   and did not sell between 55,000 and 550,000 units
+   Output the manufacturer name, drug name, and the # of units sold. for all the medicines which match that criteria.
+    ---SELECT manufacturer, drug, units_sold FROM pharmacy_sales
+       WHERE manufacturer IN ('Roche','Bayer','AstraZeneca')
+       AND units_sold NOT BETWEEN 55000 AND 550000;
 7.
 8.
